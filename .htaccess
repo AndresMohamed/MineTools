@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    DirectoryIndex login.php
+
+    RewriteRule ^inicio$ login.php [L]
+    RewriteRule ^Bienvenido$ indexPlaceholder.php [L]
+</IfModule>
