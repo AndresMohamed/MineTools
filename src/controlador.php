@@ -8,7 +8,7 @@ if (!empty($_POST["btningresar"])) {
         $contraseña=$_POST["contraseña"];
         $sql = $conexion->query(" select * from usuario where nombre='$nombre' and contraseña='$contraseña' ");
         if ($datos=$sql->fetch_object()){
-            header("location:Bienvenido");
+            header("location:home");
         } else {
             echo '<div>Acceso denegado</div>';
 

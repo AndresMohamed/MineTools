@@ -3,5 +3,5 @@
     DirectoryIndex login.php
 
     RewriteRule ^inicio$ login.php [L]
-    RewriteRule ^Bienvenido$ indexPlaceholder.php [L]
+    RewriteRule ^home$ index.php [L]
 </IfModule>
