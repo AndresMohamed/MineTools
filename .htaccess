@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteRule ^home$ index.php [L]
+    RewriteRule ^items$ items.php [L]
+    RewriteRule ^detalles$ detalles.php [L]
+</IfModule>
